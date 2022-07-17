@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="text-center">S'inscrire</h1>
+
+                <form method="POST" action="{% url 'signup' %}">
+                        {% csrf_token %}
+                        <div class="form-group">
+                            <label for="username">Pseudo</label>
+                            <input type="text" name="username" id="username" class="form-control"/>
+                            <label for="password">Mot de passe</label>
+                            <input type="password" name="password" id="password" class="form-control"/>
+                        </div>
+                        <button type="submit" class="btn btn-primary">S'inscrire</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

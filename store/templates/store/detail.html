@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container-detail">
+    <h2 class="text-center">{{ product.name }}</h2>
+    <div>
+        <img src="{{ product.image.url }}" alt="{{ product.name }}" style="width:30%">
+        <p>{{ product.description }}</p>
+        <p>{{ product.price}} €</p>
+    </div>
+    <!-- bouton + lien add-to-cart -->
+    {% if user.is_authenticated %}
+    <div class="col">
+        <p>
+            <a class="btn btn-success" href="{% url 'add-to-cart' product.slug %}">Ajouter panier</a>
+        </p>
+        <p>{{ product.stock }} en stock</p>
+        <p>{{ product.category.name }}</p>
+    </div>
+    {% endif %}
+    <!-- bouton + lien add-to-cart -->
+    <!--
+
+    -->
+</div>
+{% endblock %}

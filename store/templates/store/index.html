@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    {% for product in products %}
+        <div id="products" class="list-group">
+
+            <div class="'product_box" style="justify-content: center;
+                                             margin: auto;">
+
+
+                    <p>
+                        <img style="max-width: 300px;" class="product_img" src="{{ product.image.url }}" alt="{{ product.name }}" >
+                    </p>
+
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+                            <div style="width: 200px;">
+                                <h4 class="group inner list-group-item-heading">{{ product.name }}</h4>
+                                <p class="group inner list-group-item-text">
+                                     {{ product.description }}.</p>
+                                <div class="row">
+                                    <div class="">
+                                        <p class="lead">{{ product.price }}</p>
+                                    </div>
+                                    <div class="">
+                                         <a class="btn btn-success"  href="{{ product.get_absolute_url }}">Voir le produit</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    {% endfor %}
+
+{% endblock %}
+

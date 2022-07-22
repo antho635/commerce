@@ -3,6 +3,8 @@ from django.shortcuts import render, redirect
 
 User = get_user_model()
 
+def style(request):
+    return render(request, 'shop/base.html')    
 
 def signup(request):
     if request.method == "POST":

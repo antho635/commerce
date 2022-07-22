@@ -1,0 +1,39 @@
+
+#container {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 95%;
+  flex-wrap: wrap;
+}
+
+
+.d-flex {
+  width: 27%;
+  justify-content: center;
+  margin: 35px auto;  
+  border: 1px solid black;
+}
+
+
+/* Élément | http://127.0.0.1:8000/ */
+
+.box-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  height:750px;
+  padding: 10px;
+}
+
+/* style.css | http://127.0.0.1:8000/static/style.css */
+
+.box-item {
+  padding: 10px;
+}
+
+.desc {
+    text-align:center;
+}

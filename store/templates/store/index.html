@@ -2,40 +2,38 @@
 
 {% block content %}
 
-    {% for product in products %}
-        <div id="products" class="list-group">
+{% for product in products %}
+<div class="d-flex">
+    <div class="box-item">
 
-            <div class="'product_box" style="justify-content: center;
-                                             margin: auto;">
+        <div class="item-flex">
+            <h4 class="group inner list-group-item-heading">{{ product.name }}</h4>
+        </div>
+        <div class="item-flex">
+            <img style="max-width: 300px;" class="product_img" src="{{ product.image.url }}" alt="{{ product.name }}">
+        </div>
+        <div class="item-flex">
+            <p class="group inner desc list-group-item-text">{{ product.description }}.</p>
+        </div>
+        <div class="item-flex">
+            <p class="lead">{{ product.price }}</p>
+        </div>
+
+        <div class="item-flex">
+            <a class="btn btn-warning" href="{{ product.get_absolute_url }}">Voir le produit</a>
+            <!-- Ajouter au panier -->
+            {% if user.is_authenticated %}
+            <a class="btn btn-success" href="{{ product.get_absolute_url }}">Ajouter au panier</a>
+            {% endif %}
+        </div>
+
+    </div>
+</div>
+{% endfor %}
 
 
-                    <p>
-                        <img style="max-width: 300px;" class="product_img" src="{{ product.image.url }}" alt="{{ product.name }}" >
-                    </p>
 
 
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
-                            <div style="width: 200px;">
-                                <h4 class="group inner list-group-item-heading">{{ product.name }}</h4>
-                                <p class="group inner list-group-item-text">
-                                     {{ product.description }}.</p>
-                                <div class="row">
-                                    <div class="">
-                                        <p class="lead">{{ product.price }}</p>
-                                    </div>
-                                    <div class="">
-                                         <a class="btn btn-success"  href="{{ product.get_absolute_url }}">Voir le produit</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-    {% endfor %}
 
 {% endblock %}
-

@@ -18,9 +18,23 @@
         <p>{{ product.category.name }}</p>
     </div>
     {% endif %}
-    <!-- bouton + lien add-to-cart -->
-    <!--
-
-    -->
+    <!-- proposition d'autres produit de la meme categorie -->
+    <div class="row">
+        <h3>Autres produits de la même catégorie</h3>
+        {% for product in products %}
+        <div class="col-md-3">
+            <div class="card">
+                <img src="{{ product.image.url }}" alt="{{ product.name }}" style="width:100%">
+                <p>{{ product.name }}</p>
+                <p>{{ product.price }} €</p>
+                <p>{{ product.stock }} en stock</p>
+                <p>{{ product.category.name }}</p>
+                <p>
+                    <a class="btn btn-success" href="{% url 'add-to-cart' product.slug %}">Ajouter panier</a>
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    
 </div>
 {% endblock %}

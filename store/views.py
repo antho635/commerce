@@ -1,7 +1,12 @@
+from itertools import product
 from django.shortcuts import get_object_or_404, render, redirect
 from django.urls import reverse
+from django.shortcuts import render, redirect
 
-from .models import Product, Cart, Order
+from django.core.mail import send_mail, BadHeaderError
+from django.http import HttpResponse
+from .models import  Product, Cart, Order
+from .models import ContactForm, ContactForm
 
 
 # index
@@ -45,3 +50,31 @@ def delete_cart( request ):
         cart.delete()
 
     return redirect("index")
+
+
+
+# Create your views here.
+def homepage(request):
+	return render(request, "shop/home.html")
+
+def contact(request):
+	if request.method == 'POST':
+		form = ContactForm(request.POST)
+		if form.is_valid():
+			subject = "Website Inquiry" 
+			body = {
+			'first_name': form.cleaned_data['first_name'], 
+			'last_name': form.cleaned_data['last_name'], 
+			'email': form.cleaned_data['email_address'], 
+			'message':form.cleaned_data['message'], 
+			}
+			message = "\n".join(body.values())
+
+			try:
+				send_mail(subject, message, 'admin@example.com', ['admin@example.com']) 
+			except BadHeaderError:
+				return HttpResponse('Invalid header found.')
+			return redirect ("main:homepage")
+      
+	form = ContactForm()
+	return render(request, "shop/contact.html", {'form':form})

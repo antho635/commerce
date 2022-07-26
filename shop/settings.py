@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 import django
-# import django_heroku
+import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ki=qwe6owv!fsmpg)6$2^bn!c=@tiu(dk*j9=e03bq39dxb4!f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.herokuapp.com', 'localhost', '127.0.0.1']
 
 # Application definition
 
@@ -125,7 +125,6 @@ STATICFILES_DIRS = [
 ]
 STATIC_FILES_STORAGE = 'withnoise.storage.CompressedManifestStaticFilesStorage'
 
-
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
@@ -136,4 +135,4 @@ AUTH_USER_MODEL = "accounts.Shopper"
 # chemin vers dossier static
 # STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
-# django_heroku.settings(locals())
+django_heroku.settings(locals())

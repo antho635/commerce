@@ -130,7 +130,8 @@ STATIC_FILES_STORAGE = 'withnoise.storage.CompressedManifestStaticFilesStorage'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_ROOT = BASE_DIR / 'mediafiles'
+
 AUTH_USER_MODEL = "accounts.Shopper"
 # chemin vers dossier static
 # STATIC_ROOT = os.path.join(BASE_DIR, "static")

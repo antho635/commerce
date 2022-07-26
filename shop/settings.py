@@ -121,7 +121,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_DIRS = [
-    BASE_DIR / 'static',
+    BASE_DIR / 'store/static',
 ]
 STATIC_FILES_STORAGE = 'withnoise.storage.CompressedManifestStaticFilesStorage'
 

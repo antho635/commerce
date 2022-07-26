@@ -4,68 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65111cfa-d88b-473b-a8be-d877b540433d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/dj_database_url-0.5.0.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/dj_database_url-0.5.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/dj_database_url-0.5.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/dj_database_url-0.5.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/dj_database_url-0.5.0.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/dj_database_url-0.5.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/dj_database_url-0.5.0.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/dj_database_url-0.5.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/dj_database_url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/django_heroku-0.3.1.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/django_heroku-0.3.1.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/django_heroku-0.3.1.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/django_heroku-0.3.1.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/django_heroku-0.3.1.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/django_heroku-0.3.1.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/django_heroku-0.3.1.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/django_heroku-0.3.1.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/django_heroku/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/django_heroku/__version__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/django_heroku/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/psycopg2-2.9.3-py3.9.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/psycopg2-2.9.3-py3.9.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/psycopg2-2.9.3-py3.9.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/psycopg2-2.9.3-py3.9.egg-info/installed-files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/psycopg2-2.9.3-py3.9.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/psycopg2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/psycopg2/_ipaddress.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/psycopg2/_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/psycopg2/_psycopg.cpython-39-darwin.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/psycopg2/_range.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/psycopg2/errorcodes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/psycopg2/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/psycopg2/extensions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/psycopg2/extras.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/psycopg2/pool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/psycopg2/sql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/psycopg2/tz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/whitenoise-6.2.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/whitenoise-6.2.0.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/whitenoise-6.2.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/whitenoise-6.2.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/whitenoise-6.2.0.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/whitenoise-6.2.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/whitenoise-6.2.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/whitenoise/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/whitenoise/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/whitenoise/compress.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/whitenoise/media_types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/whitenoise/middleware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/whitenoise/responders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/whitenoise/runserver_nostatic/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/whitenoise/runserver_nostatic/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/whitenoise/runserver_nostatic/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/whitenoise/runserver_nostatic/management/commands/runserver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/whitenoise/storage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/lib/python3.9/site-packages/whitenoise/string_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="65111cfa-d88b-473b-a8be-d877b540433d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658495235771</updated>
       <workItem from="1658866409293" duration="618000" />
-      <workItem from="1658870603340" duration="1685000" />
+      <workItem from="1658870603340" duration="2088000" />
     </task>
     <servers />
   </component>

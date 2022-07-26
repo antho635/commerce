@@ -39,7 +39,7 @@ class Product(models.Model):
     price = models.FloatField(default=0.0)
     category = models.ForeignKey('Category', on_delete=models.CASCADE, default=1)
     description = models.CharField(max_length=2500)
-    image = models.ImageField(upload_to='products', blank=True, null=True)
+    image = models.ImageField(upload_to='img', blank=True, null=True)
     stock = models.IntegerField(default=0)
 
     # Affiche le nom du produit

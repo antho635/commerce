@@ -50,3 +50,7 @@ footer {
     justify-content: center;
     margin: auto;
 }
+
+.img-fluid {
+  max-width: 20%;
+}

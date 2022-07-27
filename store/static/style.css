@@ -1,11 +1,12 @@
 /* CODING UTF-8 */
-header {
- background: black;
- color: #fff;
+
+body {
+    color: #eeeeee;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/323039/black-wood-small.jpg);
 }
 
-.box-principal {
-  background: linear-gradient(15deg, #d33f34 50%, #a61322 50.1%);
+.title-index {
+    text-align: center;
 }
 
 .cont-items {
@@ -48,16 +49,6 @@ img {
     width: 350px;
 }
 
-footer {
-    justify-content: center;
-    display: flex;
-    background: black;
-    color: #fff;
-    margin: 0;
-    height: 50px;
-}
-
-
 /* Élément | http://127.0.0.1:8000/ */
 
 .lightgrey {
@@ -71,6 +62,43 @@ footer {
 
 
 /* ============== test ================= */
+
+/* style.css | http://127.0.0.1:8000/static/style.css */
+
+.product {
+  /* margin: auto; */
+  margin: 0 auto;
+  align-items: center;
+  align-items: center;
+}
+
+div.product > img {
+  height: 300px;
+  align-items: center;
+}
+
+.btn-product {
+  margin: auto;
+}
+
+p {
+  align-items: center;
+  display: flex;
+}
+
+
+/* style.css | http://127.0.0.1:8000/static/style.css */
+
+.cont-items {
+  /* margin: auto; */
+  margin: 40px auto;
+}
+
+.product {
+  /* margin: 0 auto; */
+  margin: 30px auto;
+}
+
 
 /* ============== fin test ================= */
 

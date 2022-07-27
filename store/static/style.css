@@ -1,8 +1,9 @@
-#container {
+#container{
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 10px auto;
     align-items: center;
+    display: flex;
 }
 
 .container-panier {

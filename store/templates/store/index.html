@@ -3,35 +3,32 @@
 {% block content %}
 
 {% for product in products %}
-<div class="d-flex">
-    <div class="box-item">
+<div class="box-item">
 
-        <div class="item-flex">
             <h4 class="group inner list-group-item-heading">{{ product.name }}</h4>
-        </div>
-        <div class="item-flex">
-            <!-- image associer au produit -->
-            {% load static %}
-            <img src="{{ product.image.url }}" alt="{{ product.name }}" class="img-fluid">
 
+            <div class="img-product">
+                <!-- image associer au produit -->
+                {% load static %}
+                <img src="{{ product.image.url }}" alt="{{ product.name }}" class="img-fluid">
+            </div>
 
-        </div>
-        <div class="item-flex">
             <p class="group inner desc list-group-item-text">{{ product.description }}.</p>
-        </div>
-        <div class="item-flex">
+
+        <div class="price-product">
             <p class="lead">{{ product.price }}</p>
         </div>
 
         <div class="item-flex">
-            <a class="btn btn-warning" href="{{ product.get_absolute_url }}">Voir le produit</a>
+            <a class="btn btn-warning" href="{{ product.get_absolute_url }}">Détails du produit</a>
+
             <!-- Ajouter au panier -->
             {% if user.is_authenticated %}
             <a class="btn btn-success" href="{{ product.get_absolute_url }}">Ajouter au panier</a>
             {% endif %}
+
         </div>
 
-    </div>
 </div>
 {% endfor %}
 

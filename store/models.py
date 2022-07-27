@@ -12,14 +12,12 @@ class Category(models.Model):
     # slug = models.SlugField(max_length=200, db_index=True)
 
     def __str__(self):
-            return self.name
+        return self.name
 
     class Meta:
         ordering = ['-date_added']
         verbose_name = 'category'
         verbose_name_plural = 'categories'
-    
-
 
 
 """
@@ -103,7 +101,7 @@ class Cart(models.Model):
 
 
 class ContactForm(forms.Form):
-	first_name = forms.CharField(max_length=50)
-	last_name = forms.CharField(max_length=50)
-	email_address = forms.EmailField(max_length=150)
-	message = forms.CharField(widget=forms.Textarea, max_length=2000)
+    first_name = forms.CharField(max_length=50)
+    last_name = forms.CharField(max_length=50)
+    email_address = forms.EmailField(max_length=150)
+    message = forms.CharField(widget=forms.Textarea, max_length=2000)

@@ -19,5 +19,6 @@ urlpatterns = [
     path('product/<str:slug>/', product_detail, name='product'),
     path('product/<str:slug>/add-to-cart', add_to_cart, name='add-to-cart'),
     path("contact", contact, name="contact"),
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) + \
+              static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

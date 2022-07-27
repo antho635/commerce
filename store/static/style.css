@@ -1,4 +1,12 @@
 /* CODING UTF-8 */
+header {
+ background: black;
+ color: #fff;
+}
+
+.box-principal {
+  background: linear-gradient(15deg, #d33f34 50%, #a61322 50.1%);
+}
 
 .cont-items {
     display: flex;
@@ -6,6 +14,7 @@
     width: 80%;
     margin: auto;
     justify-content: space-around;
+
 }
 
 .product {
@@ -39,90 +48,29 @@ img {
     width: 350px;
 }
 
+footer {
+    justify-content: center;
+    display: flex;
+    background: black;
+    color: #fff;
+    margin: 0;
+    height: 50px;
+}
+
+
+/* Élément | http://127.0.0.1:8000/ */
+
+.lightgrey {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+
 /* ============== fin index ================= */
 
 
-.container-panier {
-    display: flex;
-    flex-direction: column;
-}
+/* ============== test ================= */
 
-.list-group {
-    display: flex;
-    width: 45%;
-    margin: auto;
-    align-items: center;
-    border: solid 1px black;
-    height: 700px;
+/* ============== fin test ================= */
 
-}
-
-.product_box {
-    width: 100%;
-}
-
-#products {
-    margin: 50px auto;
-}
-
-.item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-.container-detail {
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-    margin: auto;
-}
-
-footer {
-    text-align: center;
-    background-color: lightgrey;
-    height: auto;
-    padding: 10px;
-    justify-content: center;
-    margin: auto;
-}
-
-.img-fluid {
-  max-width: 20%;
-}
-
-/*
-
-#container {
-  display: flex;
-  width: 90%;
-}
-
-.d-flex {
-  width: 45%;
-  justify-content: center;
-  margin: auto;
-}
-
-div.d-flex:nth-child(1) > div:nth-child(1) {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: auto;
-}
-
-
-div.d-flex:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: auto;
-  align-items: center;
-}
-
-div.d-flex.container-detail.p {
-  text-align: center;
-  margin: 20px auto;
-}
-*/

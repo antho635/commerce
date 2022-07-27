@@ -12,8 +12,9 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 import django
-import django_heroku
 import os
+import django_on_heroku
+
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -141,4 +142,4 @@ AUTH_USER_MODEL = "accounts.Shopper"
 # chemin vers dossier static
 # STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
-django_heroku.settings(locals())
+django_on_heroku.settings(locals())

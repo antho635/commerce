@@ -7,6 +7,7 @@ from django.http import HttpResponse
 from .models import Product, Cart, Order
 from .models import ContactForm, ContactForm
 
+
 # index
 def index(request):
     products = Product.objects.all()

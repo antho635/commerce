@@ -1,11 +1,9 @@
-
 from django.contrib import admin
 from django.urls import path
 from accounts.views import signup, logout_user, login_user
-from store.views import index, product_detail, add_to_cart, cart, delete_cart, contact
 from shop import settings
-from django.contrib.staticfiles.urls import static
-from store.views import product_detail, add_to_cart, cart, delete_cart, contact
+from store.views import index,  product_detail, add_to_cart, cart, delete_cart, contact
+from django.conf.urls.static import static
 
 
 urlpatterns = [
@@ -17,8 +15,7 @@ urlpatterns = [
     path('cart/', cart, name='cart'),
     path('cart/delete/', delete_cart, name='delete-cart'),
     path('product/<str:slug>/', product_detail, name='product'),
-    path('product/<str:slug>/add-to-cart', add_to_cart, name='add-to-cart'),
+    path("product/<str:slug>/add-to-cart", add_to_cart, name='add-to-cart'),
     path("contact", contact, name="contact"),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) + \
               static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-

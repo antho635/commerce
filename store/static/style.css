@@ -1,12 +1,46 @@
 /* CODING UTF-8 */
 
-#container {
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 10px auto;
-    align-items: center;
+.cont-items {
     display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
 }
+
+.product {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+}
+
+div.product > img {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+}
+
+.product {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+/* Élément | http://127.0.0.1:8000/ */
+
+.btn-product {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 350px;
+}
+
+/* ============== fin index ================= */
+
 
 .container-panier {
     display: flex;

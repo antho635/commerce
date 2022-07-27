@@ -1,36 +1,35 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<div class="cont-items">
 
-{% for product in products %}
-<div class="box-item">
+    {% for product in products %}
+    <div class="product">
+        <h4 class="title-product-index">{{ product.name }}</h4>
 
-            <h4 class="group inner list-group-item-heading">{{ product.name }}</h4>
+        <!-- image associer au produit -->
+        {% load static %}
+        <img src="{{ product.image.url }}" alt="{{ product.name }}">
 
-            <div class="img-product">
-                <!-- image associer au produit -->
-                {% load static %}
-                <img src="{{ product.image.url }}" alt="{{ product.name }}" class="img-fluid">
-            </div>
+        <!-- description du produit -->
+        <p class="description-product-index">{{ product.description }}.</p>
 
-            <p class="group inner desc list-group-item-text">{{ product.description }}.</p>
-
-        <div class="price-product">
+        <div class="price-product-index">
             <p class="lead">{{ product.price }}</p>
         </div>
 
-        <div class="item-flex">
+        <div class="btn-product">
             <a class="btn btn-warning" href="{{ product.get_absolute_url }}">Détails du produit</a>
 
             <!-- Ajouter au panier -->
             {% if user.is_authenticated %}
-            <a class="btn btn-success" href="{{ product.get_absolute_url }}">Ajouter au panier</a>
+                <a class="btn btn-success" href="{{ product.get_absolute_url }}">Ajouter au panier</a>
             {% endif %}
-
         </div>
+    </div>
+    {% endfor %}
 
 </div>
-{% endfor %}
 
 
 

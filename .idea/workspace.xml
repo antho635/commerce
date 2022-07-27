@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65111cfa-d88b-473b-a8be-d877b540433d" name="Changes" comment="db">
+    <list default="true" id="65111cfa-d88b-473b-a8be-d877b540433d" name="Changes" comment="jfuk">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/templates/store/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/templates/store/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658495235771</updated>
       <workItem from="1658866409293" duration="618000" />
-      <workItem from="1658870603340" duration="10328000" />
+      <workItem from="1658870603340" duration="11771000" />
     </task>
     <task id="LOCAL-00001" summary="workspace">
       <created>1658880335991</created>
@@ -119,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658881613933</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="jfuk">
+      <created>1658881947150</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658881947150</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +150,7 @@
     <MESSAGE value="workspace" />
     <MESSAGE value="img" />
     <MESSAGE value="db" />
-    <option name="LAST_COMMIT_MESSAGE" value="db" />
+    <MESSAGE value="jfuk" />
+    <option name="LAST_COMMIT_MESSAGE" value="jfuk" />
   </component>
 </project>

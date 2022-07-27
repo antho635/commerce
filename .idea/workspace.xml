@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="65111cfa-d88b-473b-a8be-d877b540433d" name="Changes" comment="challa" />
+=======
+    <list default="true" id="65111cfa-d88b-473b-a8be-d877b540433d" name="Changes" comment="challa">
+      <change afterPath="$PROJECT_DIR$/store/migrations/0002_alter_product_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/settings.py" afterDir="false" />
+    </list>
+>>>>>>> parent of 5f42606 (challa)
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,10 +98,14 @@
       <option name="presentableId" value="Default" />
       <updated>1658495235771</updated>
       <workItem from="1658866409293" duration="618000" />
+<<<<<<< HEAD
       <workItem from="1658870603340" duration="13742000" />
       <workItem from="1658887599091" duration="396000" />
       <workItem from="1658888017802" duration="43000" />
       <workItem from="1658888080822" duration="2951000" />
+=======
+      <workItem from="1658870603340" duration="13536000" />
+>>>>>>> parent of 5f42606 (challa)
     </task>
     <task id="LOCAL-00001" summary="workspace">
       <created>1658880335991</created>
@@ -158,6 +170,7 @@
       <option name="project" value="LOCAL" />
       <updated>1658885021870</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00010" summary="challa">
       <created>1658885373723</created>
       <option name="number" value="00010" />
@@ -173,6 +186,9 @@
       <updated>1658890789663</updated>
     </task>
     <option name="localTasksCounter" value="12" />
+=======
+    <option name="localTasksCounter" value="10" />
+>>>>>>> parent of 5f42606 (challa)
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

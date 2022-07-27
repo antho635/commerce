@@ -11,7 +11,7 @@
         </div>
         <div class="item-flex">
             {% load static %}
-            <img src="{% static  product.image.url %}" alt="{{ product.name }}" class="img-thumbnail">
+            <img src="{% static '{{ product.image.url }}' %}" alt="{{ product.name }}" class="img-thumbnail">
 
         </div>
         <div class="item-flex">

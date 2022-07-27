@@ -13,7 +13,13 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>session</secret-storage>
       <user-name>qulggztdxxjtnf</user-name>
-      <schema-mapping />
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
     </data-source>
   </component>
 </project>

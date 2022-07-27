@@ -54,3 +54,38 @@ footer {
 .img-fluid {
   max-width: 20%;
 }
+
+/*
+
+#container {
+  display: flex;
+  width: 90%;
+}
+
+.d-flex {
+  width: 45%;
+  justify-content: center;
+  margin: auto;
+}
+
+div.d-flex:nth-child(1) > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+
+div.d-flex:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+
+div.d-flex.container-detail.p {
+  text-align: center;
+  margin: 20px auto;
+}
+*/
